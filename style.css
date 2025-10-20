@@ -1,0 +1,80 @@
+
+
+
+#crupi {
+
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 45px;
+    text-align: center;
+    width: fit-content;
+    margin: 15px auto;
+    word-wrap: break-word;
+
+
+
+
+
+
+}
+
+#crupi h1 {
+
+    color: rgba(0, 173, 0, 0.747);
+    margin: 0px;
+    font-size: x-large;
+    font-family: cursive;
+
+
+}
+
+
+body {
+
+    background-color: rgb(0, 9, 61);
+    
+
+}
+
+.sidebar{
+
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    overflow-x: hidden;
+    padding-top: 16px;
+    flex-shrink: 0;
+
+
+}
+
+.sidebar a {
+    padding: 6px 8px 10px 4px;
+    text-decoration: none;
+    font-size: 20px;
+    color:rgb(49, 70, 255);
+    display: block;
+
+
+
+}
+
+.sidebar a:hover {
+  color: #a8a8ad;
+
+}
+.main {
+  flex:1;
+  margin-left: 160px; /* Same as the width of the sidenav */
+  padding: 0px 10px;
+  width: calc(100% - 160px)
+}
+
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
